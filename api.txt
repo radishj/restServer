@@ -1,0 +1,15 @@
+url: /item
+    method: Get
+    parameters: none
+    desc: Get all item documents
+
+    method: Post
+    parameters: in Body
+        {
+            name: string,
+            description: string,
+            options: [string(,string...)]
+        }
+    desc: Create an item
+
+    
